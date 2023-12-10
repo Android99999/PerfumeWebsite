@@ -11,8 +11,12 @@ import { BiChevronDown } from "react-icons/bi";
 import {herotitle, subherotitle} from "../data"
 
 
-import heropicture from '../../src/Assets/—Pngtree—womens perfume flowers white transparent_9143291.png';
+
 import heropictures from "../Assets/Perfume.png"
+import Sauvage from "../Assets/Sauvage.png"
+
+
+import {products} from "../Utils/Product"
 
 function Hero() {
 
@@ -24,7 +28,7 @@ function Hero() {
   
     // HERO
     
-    <div id="Home" className='w-full h-[95vh] bg-[linear-gradient(120deg,_#d4d4d8_0%,_#d4d4d8_40%,_#a8a29e_100%)] md:overflow-hidden'> 
+    <div id="Home" className='w-full h-[100vh] bg-[linear-gradient(180deg,_#d4d4d8_0%,_#d4d4d8_40%,_#a8a29e_100%)] md:overflow-hidden'> 
     {/* HEADER / NAVIGATION */}
         <div className='w-full h-fit flex flex-row justify-center items-center overflow-hidden'>
             <div className='w-3/4 h-fit flex flex-row justify-between items-center pt-7 md:z-20'>
@@ -111,7 +115,6 @@ function Hero() {
 
             {/* RIGHT */}
             <div className='hidden md:w-[45%] h-full md:flex flex-col justify-start items-start z-20 relative overflow-visible'>
-               
                     <img src={heropictures} alt="" className=' md:w-[90%] h-[90%] md:block absolute right-30 bg-center bg-no-repeat bg-cover object-cover overflow-visible'/>
                     
             </div >

@@ -5,3 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comme:wght@400;800&family=Playfair+Display:wght@400;700;900&family=Poppins:wght@400;600;700&display=swap');
 
 
+.custom-slick .slick-slide {
+    padding: 1em;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    
+}

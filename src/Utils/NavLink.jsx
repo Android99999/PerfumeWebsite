@@ -1,7 +1,7 @@
 // react-scroll
 import { Link } from "react-scroll";
 
-const NavLink = ({ children, to, offset = -50, mobileMenu = false, hide}) => {
+const NavLink = ({ children, to = "", offset = -50, mobileMenu = false, hide}) => {
   const className = mobileMenu 
   ? 'text-lg font-black cursor-pointer w-full text-center relative group transition-all duration-300 hover:duration-1000'
     : 'text-lg font-black lg:text-xl p-2 cursor-pointer  relative group transition-all duration-300 hover:duration-1000';
