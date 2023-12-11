@@ -95,7 +95,7 @@ function Products() {
                               <img
                                 src= {product.ImagePath}
                                 alt=""
-                                className='w-full h-[30em] object-contain p-[4em] shadow-lg border-[1px] border-black'
+                                className='w-full h-[30em] object-contain p-[4em] shadow-lg border-[1px] border-black bg-slate-800'
                               />
 
                               <div className='flex flex-col gap-2 mt-4 md:mt-4 md:justify-end md:items-center text-center shadow-lg py-[1em] border-[1px] border-black'>
@@ -110,8 +110,8 @@ function Products() {
 
                   </Slider>
                   <div className='flex flex-row justify-between relative -top-[25em]'>
-                    <button onClick={() => slider?.current?.slickPrev()} className=''> <BiCaretLeft size={40} /></button>
-                    <button onClick={() => slider?.current?.slickNext()} className=''> <BiCaretRight size={40} /></button>
+                    <button onClick={() => slider?.current?.slickPrev()} className=''> <BiCaretLeft size={50} /></button>
+                    <button onClick={() => slider?.current?.slickNext()} className=''> <BiCaretRight size={50} /></button>
                   </div>
 
                  
