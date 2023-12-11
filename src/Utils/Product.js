@@ -1,8 +1,8 @@
-import Sauvage from "../Assets/Sauvage.png"
+import Sauvage from "../Assets/Sauvage1.png"
 import Chanel from "../Assets/BleuDeChanel.png"
-import SpiceBomb from "../Assets/spicebomb.png"
-import Azzaro from "../Assets/the-most-wanted.png"
-import Versace from "../Assets/Versace-Eros-Flame.png"
+import SpiceBomb from "../Assets/spicebomb1.png"
+import Azzaro from "../Assets/the-most-wanted1.png"
+import Versace from "../Assets/Versace-Eros-Flame1.png"
 
 export const products = [
     {
@@ -24,7 +24,7 @@ export const products = [
 
     },
     {
-        name: "Azzaro The Most Wanted Eau de Parfum Intense",
+        name: "Azzaro The Most Wanted",
         Price : "₱5,000.00",
         ImagePath: Azzaro
 

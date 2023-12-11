@@ -13,10 +13,8 @@ import {herotitle, subherotitle} from "../data"
 
 
 import heropictures from "../Assets/Perfume.png"
-import Sauvage from "../Assets/Sauvage.png"
 
 
-import {products} from "../Utils/Product"
 
 function Hero() {
 
@@ -28,7 +26,7 @@ function Hero() {
   
     // HERO
     
-    <div id="Home" className='w-full h-[100vh] bg-[linear-gradient(180deg,_#d4d4d8_0%,_#d4d4d8_40%,_#a8a29e_100%)] md:overflow-hidden'> 
+    <div id="Home" className='w-full h-[100vh] bg-[linear-gradient(180deg,_#d4d4d8_0%,_#d4d4d8_40%,_#a8a29e_100%)] overflow-hidden'> 
     {/* HEADER / NAVIGATION */}
         <div className='w-full h-fit flex flex-row justify-center items-center overflow-hidden'>
             <div className='w-3/4 h-fit flex flex-row justify-between items-center pt-7 md:z-20'>
@@ -119,8 +117,13 @@ function Hero() {
                     
             </div >
 
-            <div className='hidden absolute md:block w-[90em] h-[90em] bg-slate-800 -right-[30em] z-10 rounded-full'>
+            <div className='-bottom-[40em] w-[60em] h-[60em] absolute block bg-slate-800 z-10 md:-right-[30em] rounded-full transition-all ease-in-out delay-150 duration-300
+            md:w-[90em] md:h-[90em] lg:w-[90em] lg:h-[90em] lg:-bottom-[15em]'>
+            {/* Content of the element */}
             </div>
+
+            {/* <div className='w-[34em] h-[34em] -bottom-[15em] absolute block md:w-[90em] md:h-[90em] bg-slate-800 md:-right-[30em] z-10 rounded-full transition ease-in-out delay-150 duration-300'>
+            </div> */}
                 
         </div>
     </div>
