@@ -118,7 +118,7 @@ function Hero() {
             </div >
 
             <div className='-bottom-[40em] w-[60em] h-[60em] absolute block bg-slate-800 z-10 md:-right-[30em] rounded-full transition-all ease-in-out delay-150 duration-300
-            md:w-[90em] md:h-[90em] lg:w-[90em] lg:h-[90em] lg:-bottom-[15em]'>
+            md:w-[90em] md:h-[90em] lg:w-[90em] lg:h-[90em] lg:-bottom-[10em]'>
             {/* Content of the element */}
             </div>
 
