@@ -20,7 +20,7 @@ function AboutUs() {
 
                       <h1 className='font-Poppins tracking-[0.4em] font-extrabold text-[1.4em] p-1 border-b-[1px] border-black'>ABOUT US</h1>
                               
-                      <div className=' w-full h-fit p-4 font-PlayFair bg-slate-400 '>
+                      <div className=' w-full h-fit p-4 font-Comme '>
                             <p className='text-justify py-[1em]'>Welcome to MAUI, where we believe in the artistry of scent and the power of elegance.
                                Our journey began with a passion for crafting luxurious fragrances that captivate the senses
                                 and leave a lasting impression.
