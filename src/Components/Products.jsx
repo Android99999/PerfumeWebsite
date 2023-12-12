@@ -98,7 +98,7 @@ function Products() {
                                 className='w-full h-[30em] object-contain p-[4em] shadow-lg border-[1px] border-black bg-slate-800'
                               />
 
-                              <div className='flex flex-col gap-2 mt-4 md:mt-4 md:justify-end md:items-center text-center shadow-lg py-[1em] border-[1px] border-black'>
+                              <div className=' flex flex-col gap-2 mt-4 md:mt-4 md:justify-end md:items-center text-center shadow-lg py-[1em] border-[1px] border-black bg-zinc-200'>
 
                                   <h1 className='font-black text-[1.6em] font-Poppins '>{product.name}</h1>
                                   <h3 className=' font-normal font-Poppins text-[1.4em] '>{product.Price}</h3>
