@@ -25,19 +25,19 @@ function ContactUs() {
             </div>
               
 
-            <div className='flex flex-col gap-2 p-6'>
-              <div className='flex flex-row gap-2'>
-                <FaLocationDot size={20} color={"#d4d4d8"}/>
+            <div className='flex flex-col gap-4 p-6'>
+              <div className='flex flex-row gap-2 items-center'>
+                <FaLocationDot size={30} color={"#d4d4d8"}/>
                 <h1 className='font-Poppins font-black text-[#d4d4d8]'>Maureen st. Kate Bldg. </h1>
               </div>
 
-              <div className='flex flex-row gap-2'>
-                <PiDeviceMobileFill  size={20} color={"#d4d4d8"}/>
+              <div className='flex flex-row gap-2  items-center'>
+                <PiDeviceMobileFill  size={30} color={"#d4d4d8"}/>
                 <h1 className='font-Poppins font-black text-[#d4d4d8]'>09123456789</h1>
               </div>
 
-              <div className='flex flex-row gap-2'>
-                <MdEmail  size={20} color={"#d4d4d8"}/>
+              <div className='flex flex-row gap-2  items-center'>
+                <MdEmail  size={30} color={"#d4d4d8"}/>
                 <h1 className='font-Poppins font-black text-[#d4d4d8]'>09123456789</h1>
               </div>
 
