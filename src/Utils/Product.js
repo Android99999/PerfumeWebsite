@@ -1,38 +1,38 @@
-import Sauvage from "../Assets/Sauvage1.png"
-import Chanel from "../Assets/BleuDeChanel.png"
-import SpiceBomb from "../Assets/spicebomb1.png"
-import Azzaro from "../Assets/the-most-wanted1.png"
-import Versace from "../Assets/Versace-Eros-Flame1.png"
+import Product1 from "../Assets/Product1.png"
+import Product2 from "../Assets/Product2.png"
+import Product3 from "../Assets/Product3.png"
+import Product4 from "../Assets/Product4.png"
+import Product5 from "../Assets/Product5.png"
 
 export const products = [
     {
-        name: "Dior Sauvage",
-        Price : "₱5,000.00",
-        ImagePath: Sauvage  
+        name: "Enchanted Elixir",
+        Price : "₱3,499.00",
+        ImagePath: Product1 
 
     },
     {
-        name: "Chanel Bleu de Chanel",
-        Price : "₱5,000.00",
-        ImagePath: Chanel
+        name: "Celestial Bloom",
+        Price : "₱2,999.00",
+        ImagePath: Product2
 
     },
     {
-        name: "Viktor&Rolf Spicebomb",
-        Price : "₱5,000.00",
-        ImagePath: SpiceBomb
+        name: "Ethereal Essence",
+        Price : "₱3,799.00",
+        ImagePath: Product3
 
     },
     {
-        name: "Azzaro The Most Wanted",
-        Price : "₱5,000.00",
-        ImagePath: Azzaro
+        name: "Moonlit Mirage",
+        Price : "₱3,999.00",
+        ImagePath: Product4
 
     },
     {
-        name: "Versace Eros Flame",
-        Price : "₱5,000.00",
-        ImagePath: Versace
+        name: "Enigma Elegance",
+        Price : "₱2,799.00",
+        ImagePath: Product5
 
     }
 ]

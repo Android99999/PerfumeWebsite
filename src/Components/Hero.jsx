@@ -10,7 +10,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 import {herotitle, subherotitle} from "../data"
 
-
+import Logos from "../Assets/EMLOGO.png"
 
 import heropictures from "../Assets/Perfume.png"
 
@@ -32,8 +32,8 @@ function Hero() {
             <div className='w-3/4 h-fit flex flex-row justify-between items-center pt-7 md:z-20'>
                 {/* LOGO */}
                 <NavLink>
-                <div className='w-fit h-fit'>
-                            <h1 className='font-PlayFair font-black text-[2em] px-3 py-1 text-black'>MAUI</h1>
+                <div className='w-[4em] h-[4em]'>
+                            <img src={Logos}></img>
                 </div>
                 </NavLink>
 
@@ -91,8 +91,8 @@ function Hero() {
                 <h2 className=' font-Poppins font-semibold text-[1.7em] tracking-wide md:text-[2.5em] lg:text-[2.6em] text-center'>
                     "{herotitle}"
                 </h2>
-                <h1 className=' font-PlayFair font-black text-[5em] border-b-2 border-black md:text-[8em]'>
-                    MAUI
+                <h1 className=' font-PlayFair font-black text-[4em] border-b-2 border-black md:text-[6em] text-center'>
+                    Ethereal Majesty
                    
                 </h1>
 
@@ -117,7 +117,7 @@ function Hero() {
                     
             </div >
 
-            <div className='-bottom-[40em] w-[60em] h-[60em] absolute block bg-slate-800 z-10 md:-right-[30em] rounded-full transition-all ease-in-out delay-150 duration-300
+            <div className='-bottom-[44em] w-[60em] h-[60em] absolute block bg-slate-800 z-10 md:-right-[30em] md:-bottom-[44em] rounded-full transition-all ease-in-out delay-150 duration-300
             md:w-[90em] md:h-[90em] lg:w-[90em] lg:h-[90em] lg:-bottom-[10em]'>
             {/* Content of the element */}
             </div>

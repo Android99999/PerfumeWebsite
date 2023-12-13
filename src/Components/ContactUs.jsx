@@ -28,7 +28,7 @@ function ContactUs() {
             <div className='flex flex-col gap-4 p-6'>
               <div className='flex flex-row gap-2 items-center'>
                 <FaLocationDot size={30} color={"#d4d4d8"}/>
-                <h1 className='font-Poppins font-black text-[#d4d4d8]'>Maureen st. Kate Bldg. </h1>
+                <h1 className='font-Poppins font-black text-[#d4d4d8]'>Ethereal st. Majesty Bldg. </h1>
               </div>
 
               <div className='flex flex-row gap-2  items-center'>
@@ -38,7 +38,7 @@ function ContactUs() {
 
               <div className='flex flex-row gap-2  items-center'>
                 <MdEmail  size={30} color={"#d4d4d8"}/>
-                <h1 className='font-Poppins font-black text-[#d4d4d8]'>09123456789</h1>
+                <h1 className='font-Poppins font-black text-[#d4d4d8]'>EMproducts@emajesty.com</h1>
               </div>
 
             </div>
